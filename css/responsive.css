@@ -45,6 +45,12 @@
   header .wrap nav ul.enb{
     display: none;
   }
+  header .wrap nav .wgnb{ 
+  width: 80%;
+  height: 100vh;
+  left: -80%;
+  top:0;
+  }
   header .wrap nav{
     grid-template-columns: auto 1fr auto;
     grid-template-rows: 50px;

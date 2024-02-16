@@ -69,7 +69,6 @@ header .wrap nav h1 a span {
  
 }
 header .wrap nav ul.gnb{
- 
   display: flex;
 }
 header .wrap nav ul.gnb li {
@@ -90,7 +89,7 @@ header .wrap nav ul.gnb li a:hover{
 header .wrap nav .wgnb{
   display: block;
   position: absolute;
-  width: 80%;
+  width: 0;
   height: 100vh;
   left: -80%;
   top:0;
@@ -176,6 +175,9 @@ header .wrap nav ul.enb li a {
 header .wrap nav ul.enb li a:hover {
 
 }
-header .wrap nav ul.enb li:nth-child(1) a::after,header .wrap nav ul.enb li:nth-child(2) a::after{
+header .wrap nav ul.enb li:nth-child(1) a::after{
+  
+}
+header .wrap nav ul.enb li:nth-child(2) a::after{
  
 }
