@@ -162,6 +162,10 @@ footer .btop::before{
   vertical-align: -23px;
   margin-right: 4px;
 }
+footer .btop.topFix::before{
+  
+  border-color: black;
+}
 footer .btop::after{
   content: "";
   height: 20px;
@@ -173,12 +177,17 @@ footer .btop::after{
   transform-origin: 0 0;
   transform: rotate(45deg);
 }
+footer .btop.topFix::after{
+  border-color: black;
+}
+
 .topFix{
   position: fixed !important;
   bottom: 0;
   z-index: 1;
   top: auto !important;
   color: black !important;
+  opacity: 1 !important;
 }
 
 
